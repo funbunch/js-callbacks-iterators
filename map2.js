@@ -10,4 +10,5 @@ let square = numbers.map(num => Math.pow(num, 2))
 
 console.log(square)
 let bigNum = square.filter(large => large > 30)
+
 bigNum.forEach(num => console.log(`${bigNum} is larger than 30`))
