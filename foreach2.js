@@ -12,3 +12,4 @@ let foods = [
 
 // your code here
 
+foods.forEach(obj => console.log(`${obj.name} is ${obj.level} delicious`))

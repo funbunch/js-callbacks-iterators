@@ -40,3 +40,5 @@ let forecast = [
 // "Monday will have a high of 55F and a low of 53F."
 
 //Your code here
+let outlook = forecast.map(obj => (`${obj.day} will have a high of ${obj.high} and a low of ${obj.low}`))
+console.log(outlook)
